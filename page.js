@@ -6,3 +6,18 @@ export default function HomePage() {
     </div>
   );
 }
+import ComposerStub from "@/components/ComposerStub";
+
+export const metadata = {
+  title: "Compose | CoachOS"
+};
+
+export default function ComposePage() {
+  return (
+    <div>
+      <h1>Session Composer (Stub)</h1>
+      <p>Drop your React canvas here later. The stub proves rendering & layout.</p>
+      <ComposerStub />
+    </div>
+  );
+}
